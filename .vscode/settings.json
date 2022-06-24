@@ -3,7 +3,33 @@
 	"typescript.tsdk": "node_modules/typescript/lib",
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": false,
+		"source.fixAll.eslint": true,
 		"source.fixAll": true
 	},
+	"eslint.options": {
+		"extensions": [
+			".js",
+			".jsx",
+			".md",
+			".mdx",
+			".ts",
+			".tsx"
+		]
+	},
+	"eslint.validate": [
+		"markdown",
+		"mdx",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"auto-close-tag.activationOnLanguage": [
+		"xml",
+		"php",
+		"...",
+		"mdx"
+	],
+	
 	"typescript.enablePromptUseWorkspaceTsdk": true
 }

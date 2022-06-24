@@ -1,0 +1,5 @@
+{
+  let a = 0;
+  a   // 0
+}
+a   // 报错 ReferenceError: a is not defined
