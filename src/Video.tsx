@@ -1,5 +1,5 @@
 import {Composition} from 'remotion';
-import {MyComposition} from './videos/Content7';
+import {MyComposition} from './videos/Content9';
 
 
 export const RemotionVideo: React.FC = () => {
@@ -8,7 +8,7 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="Empty"
 				component={MyComposition}
-				durationInFrames={2220}
+				durationInFrames={300}
 				fps={30}
 				width={1080}
 				height={1920}
